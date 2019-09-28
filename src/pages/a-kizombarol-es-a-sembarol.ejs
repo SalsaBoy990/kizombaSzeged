@@ -1,40 +1,45 @@
 <main>
-<div class="container-fluid m0 p0">
-  <div class="row mx-responsive p0 mb3">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 p0">
+  <div class="container-fluid m0 p0">
+    <div class="row mx-responsive p0 mb3">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 p0">
 
+        <h1 class="mt3 red-highlight mt4 m-mt2">A kizomba és a semba bemutatása</h1>
 
-      <h1 class="mt3 red-highlight mt4 m-mt2">A kizomba és a semba bemutatása</h1>
+        <p>A kizomba egy Angolából származó zenei és táncstílus.</p>
 
+        <p>A kizomba szó Angola egyik nemzeti nyelvén, kimbundu-ul bulit, partit jelent.</p>
 
-      <p class="italic">Készületben... Egy rövid összefoglalót azért írtam:</p>
+        <p>A házibulik, kerti partik (Festa de Quintal) a közösségi élet legfontosabb színterei Angolában, ahol az
+          emberek
+          összegyűlnek, esznek, isznak, beszélgetnek, mulatnak, táncolnak.</p>
 
-      <p>A kizomba egy Angolából származó zenei és táncstílus.</p>
+        <p>A kizomba tánc a 80-as években alakult ki a semba táncból. A kizomba zene is a 80-as években jött létre, a
+          semba zene
+          és
+          a zouk zene egyfajta elegyeként (a ma uralkodó nézet szerint).</p>
 
-      <p>A kizomba szó Angola egyik nemzeti nyelvén, kimbundu-ul bulit, partit jelent.</p>
+        <p>A kizomba táncolásakor a táncosok egészen közel vannak egymáshoz, olyannyira, hogy a mellkasok összeérnek. A
+          kizomba
+          családi tánc, ahol a családtagok, a rokonok és a barátok egymással táncolnak. A tánc befele forduló és a
+          kötődésen
+          alapul, nem pedig trükkökön vagy figurákon. A csípőmozgás (ginga) és a lábmunka (banga) a domináns benne.</p>
 
-      <p>A házibulik, kerti partik (Festa de Quintal) a közösségi élet legfontosabb színterei Angolában, ahol az emberek
-        összegyűlnek, esznek, isznak, beszélgetnek, mulatnak, táncolnak.</p>
-
-      <p>A kizomba tánc a 80-as években alakult ki a semba táncból. A kizomba zene is a 80-as években jött létre, a
-        semba zene
-        és
-        a zouk zene egyfajta elegyeként (a ma uralkodó nézet szerint).</p>
-
-      <p>A kizomba táncolásakor a táncosok egészen közel vannak egymáshoz, olyannyira, hogy a mellkasok összeérnek. A
-        kizomba
-        családi tánc, ahol a családtagok, a rokonok és a barátok egymással táncolnak. A tánc befele forduló és a
-        kötődésen
-        alapul, nem pedig trükkökön vagy figurákon. A csípőmozgás (ginga) és a lábmunka (banga) a domináns benne.</p>
-
-      <p>A semba egy hagyományos zenei és táncstílus Angolából, ami az 50-es években vált népszerűvé. A semba szó
-        kimbundu-ul
-        az
-        „Umbigada”-nak nevezett táncmozdulatot jelenti, amikor férfi megfogja a nőt a csípőjénél és odarántja magához
-        köldökmagasságban. Az 1970-es évek elején kezdték el párban táncolni. Az évek alatt a semba tánc sokat változott
-        Angolában, csakúgy, mint a kizomba.</p>
-
+        <p>A semba egy hagyományos zenei és táncstílus Angolából, ami az 50-es években vált népszerűvé. A semba szó
+          kimbundu-ul
+          az
+          „Umbigada”-nak nevezett táncmozdulatot jelenti, amikor férfi megfogja a nőt a csípőjénél és odarántja magához
+          köldökmagasságban. Az 1970-es évek elején kezdték el párban táncolni. Az évek alatt a semba tánc sokat
+          változott
+          Angolában, csakúgy, mint a kizomba.</p>
+        
+        <h2>A kizombával kapcsolatos cikkfordításaim</h2>
+        <p class="medium-size">Minden jog fenntartva!</p>
+        <ul class="no-bullets">
+          <% for (var i = 0; i < postsDataForIndexPage.length; i++) { %>
+          <li class="mbhalf"><a href="<%= postsDataForIndexPage[i].pathToPost %>"><%= postsDataForIndexPage[i].title %></a></li>
+          <% } %>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 </main>
