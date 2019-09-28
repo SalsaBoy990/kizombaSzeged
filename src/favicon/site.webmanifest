@@ -1,20 +1,14 @@
 {
-    "name": "Gul\u00e1csi Andr\u00e1s Blogja",
-    "short_name": "Gul\u00e1csi Andr\u00e1s Blogja",
+    "name": "KizombaSzeged",
+    "short_name": "KizombaSzeged",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
         }
     ],
-    "theme_color": "#f2f2f2",
-    "background_color": "#f2f2f2",
-    "start_url": "https://www.gulacsiandras.blog/",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
