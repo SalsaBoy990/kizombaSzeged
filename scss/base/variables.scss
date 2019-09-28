@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* Created by András Gulácsi (@andrasgulacsi / salsaboy990) */
+
+// Sizes
+$baseline:    1.46rem /* 30px */;
+$base-size:   24px;
+$lheight:     1.46;
+$h1-size:     3rem;
+$h2-size:     2.0833333rem;
+$h3-size:     1.4583333rem;
+$medium-size: 0.75rem;
+$min-size:    0.5833333rem;
+
+
+.medium-size {
+  font-size: $medium-size;
+}
+
+.min-size {
+  font-size: $min-size;
+}
+
+
+// Fonts
+/* fallback: Modern Georgia-based serif stack */
+$heading-font: 'Martel', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; 
+
+/* fallback: Helvetica/Arial-based sans serif stack */
+$body-font:     'Inter-Regular', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-italic:   'Inter-Italic', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-bold:     'Inter-Bold', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-semibold: 'Inter-SemiBold', Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$code-font:    'Consolas', 'Lucida Console', Monaco, monospace;
+
+
+// Color Variables
+$main-blue:              #4830E0;
+$body-black:             #232228;
+$medium-gray-text-1:     #5D5C64;
+$medium-gray-text-2:      #45474B;
+$neutral-blue-dark:      #B2B0C2;
+$neutral-blue-light:     #D3CFEB;
+$red-highlight:          #C80048;
+$pink-error:             #ad4c69;
+$yellow-btn-info:        #FFAE35;
+$pale-yellow:            #FFEED3;
+$blue-link:              #4830E0;
+$blue-link-hover:        #130282;
+
+// Default colors
+$white:   #FFF;
+$gray-e:  #eee;
+$gray-d:  #ddd;
+$gray-c:  #ccc;
+$gray-a:  #aaa;
+$black:   #000;
+$green:   #24C2B0;
+$red:     #c22424;
+$yellow:  #FFAE35;
+$blue:    #3575ff;
+
+.bg-yellow-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFAE35 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFAE35 100%);
+}
+.bg-purple-gradient {
+background-image: linear-gradient(to right bottom, #ffffff, #f4f3fa, #e9e7f5, #dedbf0, #d3cfeb);
+}
+// Function to calculate margin sizes (n times the baseline grid size)
+@function margin-size($n) {
+  @return $n * $baseline;
+}
+
+.bg-main-blue {
+  background: $main-blue;
+}
+
+.main-blue {
+  color: $main-blue;
+}
+
+.bg-body-black {
+  background: $body-black;
+}
+
+.body-black {
+  color: $body-black;
+}
+
+.bg-medium-gray-text-1 {
+  background: $medium-gray-text-1;
+}
+
+.medium-gray-text-1 {
+  color: $medium-gray-text-1;
+}
+
+.bg-medium-gray-text-2 {
+  background: $medium-gray-text-2;
+}
+
+.medium-gray-text-2 {
+  color: $medium-gray-text-2;
+}
+
+
+.bg-neutral-blue-dark {
+  background: $neutral-blue-dark;
+}
+
+.neutral-blue-dark {
+  color: $neutral-blue-dark;
+}
+
+.bg-neutral-blue-light {
+  background: $neutral-blue-light;
+}
+
+.neutral-blue-light {
+  color: $neutral-blue-light;
+}
+
+.bg-red-highlight {
+  background: $red-highlight;
+}
+
+.red-highlight {
+  color: $red-highlight;
+}
+
+.bg-pink-error {
+  background: $pink-error;
+}
+
+.pink-error {
+  color: $pink-error;
+}
+
+.bg-yellow-btn-info {
+  background: $yellow-btn-info;
+}
+
+.yellow-btn-info {
+  color: $yellow-btn-info;
+}
+
+.bg-pale-yellow {
+  background: $pale-yellow;
+}
+
+.yellow-btn-info {
+  color: $pale-yellow;
+}
+
+.blue-link {
+  background: $blue-link;
+}
+
+.yellow-btn-info {
+  color: $yellow-btn-info;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.white {
+  color: $white;
+}
+
+.gray-e {
+  color: $gray-e;
+}
+
+.gray-d {
+  color: $gray-d;
+}
+
+.gray-c {
+  color: $gray-c;
+}
+
+.gray-a {
+  color: $gray-a;
+}
+
+.black {
+  color: $black;
+}
+
+.green {
+  color: $green;
+}
+
+.red {
+  color: $red;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.blue {
+  color: $blue;
+}
+
+.bg-none {
+  background: none;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.bg-gray-e {
+  background: $gray-e;
+}
+
+.bg-gray-d {
+  background: $gray-d;
+}
+
+.bg-gray-c {
+  background: $gray-c;
+}
+
+.bg-gray-a {
+  background: $gray-a;
+}
+
+.bg-black {
+  background: $black;
+}
+
+.bg-green {
+  background: $green;
+}
+
+.bg-red {
+  background: $red;
+}
+
+.bg-yellow {
+  background: $yellow;
+}
+
+.bg-blue {
+  background: $blue;
+}

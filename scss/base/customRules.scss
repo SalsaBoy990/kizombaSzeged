@@ -1,0 +1,124 @@
+/* CUSTOM CLASSES */
+.sans-serif {
+  font-family: $heading-font;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.medium-img {
+  width: 50%;
+}
+
+.logo {
+  height: 101px;
+  width: 75px;
+}
+
+.navbar-height {
+  height: 70px;
+}
+
+.tooltip {
+  font-family: $heading-font;
+  font-size: $min-size;
+}
+
+.white-link {
+  color: $yellow !important;
+  text-decoration: underline;
+}
+
+.white-link:hover, .white-link:active, .white-link:focus {
+  transition: ease-in 0.3s;
+  color: $yellow !important;
+  text-decoration: none;
+}
+
+.gray-link {
+  color: $medium-gray-text-1;
+  text-decoration: none;
+}
+
+.gray-link:hover, .gray-link:active, .gray-link:focus {
+  transition: ease-in 0.3s;
+  color: $body-black;
+  text-decoration: underline;
+}
+
+.black-link {
+  color: $medium-gray-text-1 !important;
+  text-decoration: underline;
+}
+
+.black-link:hover, .black-link:active {
+  transition: ease-in 0.3s;
+  color: $black;
+  text-decoration: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: $white;
+  background-color: $red-highlight;
+}
+
+.nav-link {
+  display: block;
+  padding: .25rem .5rem;
+}
+
+.nav-link:hover {
+  color: $blue-link-hover;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: $black;
+  text-decoration: none;
+  background-color: $black !important;
+}
+
+.dropdown-item.hover, .dropdown-item:hover {
+  color: $black;
+  text-decoration: none;
+  background-color: $neutral-blue-light !important;
+}
+
+.dropdown-item {
+  color: $body-black
+}
+
+.mr40px {
+  margin-right: 40px;
+}
+
+.large-btn {
+  font-family: $body-bold;
+  text-transform: uppercase;
+  font-size: 0.833334rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.small-btn {
+  font-family: $body-bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+
+.table-highlight {
+  font-family: $body-semibold;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.bold-body {
+  font-family: $body-bold;
+  font-weight: 700;
+}
