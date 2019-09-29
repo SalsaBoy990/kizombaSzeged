@@ -26,7 +26,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Date", name: "date", widget: "string"}
-      - {label: "DateNew", name: "date", widget: "date"}
+      - {label: "DateNew", name: "dateNew", widget: "date"}
       - {label: "Short excerpt", name: "excerpt", widget: "text"}
       - {label: "Topic", name: "topic", widget: "select", options: ["tánc", "zene", "kultúra"], multiple: false}
       - {label: "Cover image filename with extension", name: "coverImage", widget: "image"}
@@ -41,5 +41,6 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Place and time, name: subtitle, widget: string}
-          - {label: Facebook link, name: link, widget: string}
+          - {label: Facebook link, name: event_link, widget: string}
+          - {label: Price, name: price, widget: number}
 
