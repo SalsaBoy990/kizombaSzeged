@@ -31,12 +31,15 @@ collections:
       - {label: "Topic", name: "topic", widget: "select", options: ["tánc", "zene", "kultúra"], multiple: false}
       - {label: "Cover image filename with extension", name: "coverImage", widget: "image"}
       - {label: "Body of the post", name: "body", widget: "markdown"}
-  - name: "Workshop"
-    label: "Workshop details"
+  - name: "data"
+    label: "Data"
     description: We store the workshop information in a YAML file
-    file: "src/data/workshop.yml"
-    fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Place and time, name: subtitle, widget: string}
-      - {label: Facebook link, name: link, widget: string}
+    files:
+      - label: "Workshop"
+        name: "workshop"
+        file: "src/data/workshop.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Place and time, name: subtitle, widget: string}
+          - {label: Facebook link, name: link, widget: string}
 
