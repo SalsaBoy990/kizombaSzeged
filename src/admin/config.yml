@@ -35,6 +35,7 @@ collections:
     label: "Workshop details"
     description: We store the workshop information in a YAML file
     file: "src/data/workshop.yml"
+    fields:
       - {label: Title, name: title, widget: string}
       - {label: Place and time, name: subtitle, widget: string}
       - {label: Facebook link, name: link, widget: string}
