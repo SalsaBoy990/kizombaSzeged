@@ -37,7 +37,7 @@ collections:
     files:
       - label: "Workshop"
         name: "workshop"
-        file: "src/data/workshop.yml"
+        file: "src/data/workshopData.yml"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Place and time, name: subtitle, widget: string}
