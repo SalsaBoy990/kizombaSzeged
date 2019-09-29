@@ -1,0 +1,4 @@
+{
+  "watch": ["./src", "site.config.js", "./data/workshopData.yml"],
+  "delay": "1000"
+}

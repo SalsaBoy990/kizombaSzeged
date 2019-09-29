@@ -8,7 +8,7 @@
     "build": "node ./lib/build.js",
     "heroku": "node ./lib/build.js && node ./lib/serve.js",
     "serve": "node ./lib/serve.js",
-    "watch": "nodemon -L --watch ./src --watch site.config.js ./lib/build.js -e *",
+    "watch": "nodemon -L ./lib/build.js -e *",
     "watch-exp": "node ./lib/watch.js",
     "standard": "standard ./lib/build.js",
     "standard-fix": "standard --fix ./lib/build.js"
@@ -32,6 +32,7 @@
   "author": "András Gulácsi",
   "license": "MIT",
   "dependencies": {
+    "ajv": "^5.0.0",
     "chalk": "^2.4.1",
     "chokidar": "^2.0.4",
     "ejs": "^2.5.7",
@@ -50,7 +51,8 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "markdown-it-video": "^0.6.3",
-    "serve-favicon": "^2.4.5"
+    "serve-favicon": "^2.4.5",
+    "yaml": "^1.7.0"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",

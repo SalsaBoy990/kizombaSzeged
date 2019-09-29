@@ -103,8 +103,8 @@
     </header>
     <div class="row mx-responsive m0 p0">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 offset-xl-2 p0">
-        <h1 class="red-highlight mt4 mbhalf m-mt2">Október 12-én várunk Benneteket egy kizomba és semba workshoppal</h1>
-        <p class="bold-body mb0">Forma 1 Fitness Szeged, 14:00</p>
+        <h1 class="red-highlight mt4 mbhalf m-mt2"><%= workshopData.title %></h1>
+        <p class="bold-body mb0"><%= workshopData.subtitle %></p>
       </div>
     </div>
     <div class="row mx-responsive m0 mt2 p0">
@@ -112,7 +112,7 @@
         <p class="body-black mb2">Érdekel az afrikai társastáncok világa?<br>
           Szeretnél úgy táncolni, mint egy afrikai?</p>
         <div class="mb4 m-mb2 align-center" style="max-width: 346px;">
-          <a href="<%= site.workshopLink %>" class="no-underline btn large-btn btn-lg" style="padding-top: 4px;">
+          <a href="<%= workshopData.event_link %>" class="no-underline btn large-btn btn-lg" style="padding-top: 4px;">
             Gyere és próbáld ki!
           </a>
           <div class="align-center">

@@ -12,10 +12,13 @@ public_folder: "/assets/images/articles/" # The src attribute for uploaded media
 slug:
   encoding: "ascii"
   clean_accents: true
+  sanitize_replacement: "-"
+
+display_url: https://kizombaszeged.hu/
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Write blogpost" # Used in the UI
+  - name: "article" # Used in routes, e.g., /admin/collections/article
+    label: "Article" # Used in the UI
     folder: "src/posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -23,7 +26,16 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Date", name: "date", widget: "string"}
-      - {label: "Short excerpt", name: "excerpt", widget: "string"}
-      - {label: "Topic", name: "topic", widget: "string"}
-      - {label: "Cover image filename with extension", name: "coverImage", widget: "string"}
+      - {label: "DateNew", name: "date", widget: "date"}
+      - {label: "Short excerpt", name: "excerpt", widget: "text"}
+      - {label: "Topic", name: "topic", widget: "select", options: ["tánc", "zene", "kultúra"], multiple: false}
+      - {label: "Cover image filename with extension", name: "coverImage", widget: "image"}
       - {label: "Body of the post", name: "body", widget: "markdown"}
+  - name: "Workshop"
+    label: "Workshop details"
+    description: We store the workshop information in a YAML file
+    file: "src/data/workshop.yml"
+      - {label: Title, name: title, widget: string}
+      - {label: Place and time, name: subtitle, widget: string}
+      - {label: Facebook link, name: link, widget: string}
+
