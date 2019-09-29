@@ -11,6 +11,6 @@ module.exports = {
     gulacsiAndras: 'https://www.facebook.com/andras.gulacsi.3',
     szlavatiAndrea: 'https://www.facebook.com/andrea.szlavati',
     google_analytics: 'YOUR-ID-COMES-HERE',
-    workshopLink: 'https://www.facebook.com'
+    workshopLink: 'https://www.facebook.com/events/2421672107898865/'
   }
 }
