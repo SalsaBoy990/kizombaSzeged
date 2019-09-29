@@ -1,7 +1,7 @@
 // Add your global site properties here
 module.exports = {
   site: {
-    url: '/',
+    url: 'https://kizombaszeged.hu/',
     title: `KizombaSzeged–Kizomba és semba táncoktatás Szegeden`,
     defaultImage: '/assets/images/kizombaszeged.jpg',
     author: 'Gulácsi András',
