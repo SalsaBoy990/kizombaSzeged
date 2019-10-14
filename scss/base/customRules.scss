@@ -125,3 +125,22 @@
   font-family: $body-bold;
   font-weight: 700;
 }
+
+.timetable table {
+  margin-top: 0;
+  margin-bottom: margin-size(2)
+}
+
+.timetable table > tbody > tr > td:first-child {
+  font-family: $body-semibold;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.timetable table > tbody > tr:first-child > td:first-child {
+  background: $main-blue;
+  color: $white;
+}
+
+
+

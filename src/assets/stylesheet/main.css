@@ -1090,3 +1090,16 @@ section:before {
 .bold-body {
   font-family: "Inter-Bold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
+
+.timetable table {
+  margin-top: 0;
+  margin-bottom: 2.92rem; }
+
+.timetable table > tbody > tr > td:first-child {
+  font-family: "Inter-SemiBold", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px; }
+
+.timetable table > tbody > tr:first-child > td:first-child {
+  background: #4830E0;
+  color: #FFF; }

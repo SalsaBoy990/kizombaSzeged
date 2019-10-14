@@ -43,4 +43,10 @@ collections:
           - {label: Place and time, name: subtitle, widget: string}
           - {label: Facebook link, name: event_link, widget: string}
           - {label: Price, name: price, widget: number}
+      - label: "Timetable"
+        name: "timetable"
+        file: "src/data/timeTable.md"
+        fields:
+          - {label: Content, name: content, widget: markdown}
+          
 
