@@ -47,6 +47,6 @@ collections:
         name: "timetable"
         file: "src/data/timeTable.md"
         fields:
-          - {label: Content, name: content, widget: markdown}
+          - {label: Content, name: body, widget: markdown}
           
 
