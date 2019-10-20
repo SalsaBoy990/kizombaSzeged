@@ -1,6 +1,9 @@
-    |
---- | ---
+```
+|
+```
+
+\--- | ---
 14:00–14:10 | Bemelegítés
-14:10–16:10 | Intenzív Workshop angolai lépésekkel
-16:10–16:30 | Szünet + Zeneismeret (zenei stílusok bemutatása)
-16:30–17:30 | Gyakorlóbuli a tanultak begyakorlására
+14:10–17:00 | Intenzív Workshop angolai lépésekkel
+17:00–17:10 | Rövid elméleti oktatás (zene + tánc)
+17:10–18:00 | Gyakorlóbuli
