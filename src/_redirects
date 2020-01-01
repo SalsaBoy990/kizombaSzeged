@@ -1,2 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
 https://kizombaszeged.netlify.com/* https://kizombaszeged.hu/:splat 301!
+
+https://kizombaszeged.netlify.com/* https://kizombadanceszeged.com/:splat 301!
+https://kizombaszeged.hu/* https://kizombadanceszeged.com/:splat 301!
